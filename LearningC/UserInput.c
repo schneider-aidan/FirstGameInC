@@ -17,13 +17,4 @@ int main(){
     }else{
         printf("%d slices is just the right amount.\n", pizzaSlices);
     }
-
-    char name[20];
-
-    printf("What is your full name?\n");
-
-    //gets next 20 characters or full line whichever is shorter
-    fgets(name, 20, stdin);
-
-    printf("Your name is %s.\n", name);
 }
